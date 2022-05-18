@@ -12,9 +12,10 @@ def date_fashion(you, date):
 
 print(date_fashion(10, 5))
 
-
 print("")
 print("Caught Speeding: ")
+
+
 def caught_speeding(speed, is_birthday):
     while not is_birthday:
         if speed <= 60:
@@ -32,6 +33,8 @@ print(caught_speeding(82, True))
 
 print("")
 print("Big Diff:")
+
+
 def big_diff(nums):
     # find the smallest number
     smallest = nums[0]
@@ -48,9 +51,10 @@ def big_diff(nums):
 
 print(big_diff([1, 2, 10, 50]))
 
-
 print("")
 print("Sum 13:")
+
+
 def sum_13(nums):
     result = 0
     previous_is_13 = False

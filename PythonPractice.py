@@ -15,12 +15,12 @@ print(caught_speeding(82, True))
 
 
 def big_diff(nums):
-    # find smallest number
+    # find the smallest number
     smallest = nums[0]
     for n in nums:
         smallest = min(smallest, n)
 
-    # find largest number
+    # find the largest number
     largest = nums[0]
     for n in nums:
         largest = max(largest, n)
